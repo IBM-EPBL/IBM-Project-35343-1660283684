@@ -11,7 +11,7 @@ Batch : B8-2A4E
 
 
 ## Team Members
-| Team Member  | Name            | REgister No    |
+| Team Member  | Name            | Register No    |
 | -------------| -------------   | --------       |
 | Team Lead    | Nandhini G      | 92172019102091 |
 | Team Member1 | Reni Jenita CS  | 92172019102110 |
