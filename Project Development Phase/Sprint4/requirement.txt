@@ -1,0 +1,6 @@
+pip install flask
+pip install flask_mysqldb
+pip install sendgrid
+pip install requests 
+pip install jsonify
+pip install mysql-connector-python
