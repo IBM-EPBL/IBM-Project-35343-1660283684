@@ -7,24 +7,15 @@ This is a temporary script file.
 """
 
 from flask import Flask, render_template, request, redirect, session 
-from flask_mysqldb import MySQL
-import mysql.connector
-import MySQLdb.cursors
+import ibm_db
 import re
-
 
 app = Flask(__name__)
 
 
 app.secret_key = 'a'
   
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'D2DxDUPBii'
-
-mysql = MySQL(app)
-
+conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=19af6446-6171-4641-8aba-9dcff8e1b6ff.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;PORT=30699;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=mbs46040;PWD=MIEpZ1DoqwMRpGvs",'','')
 
 #HOME--PAGE
 @app.route("/home")
@@ -34,7 +25,7 @@ def home():
 @app.route("/")
 def add():
     return render_template("home.html")
-
+  
 
 
 #SIGN--UP--OR--REGISTER
