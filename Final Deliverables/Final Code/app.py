@@ -1,11 +1,3 @@
-#htdocs kula
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
 from flask import Flask, render_template, request, redirect, session 
 import ibm_db
 import re
