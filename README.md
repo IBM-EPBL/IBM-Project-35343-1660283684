@@ -77,9 +77,10 @@ Personal finance applications will ask users to add their expenses and based on 
 ## Running the Application
 
 
-The required packages are as follows:
+Install the following packages:
 
 ```
+pip install ibm_db
 pip install flask
 pip install flask_mysqldb
 pip install sendgrid
