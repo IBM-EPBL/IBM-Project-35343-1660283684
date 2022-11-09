@@ -53,8 +53,8 @@ Personal finance applications will ask users to add their expenses and based on 
 **Model Building**
 
 
-- Database
-- Cloud
+- IBM cloud
+- IBM DB2
 
 ## Assignments
 
@@ -86,5 +86,5 @@ pip install flask_mysqldb
 pip install sendgrid
 pip install requests 
 pip install jsonify
-pip install mysql-connector-python
+
 ```
