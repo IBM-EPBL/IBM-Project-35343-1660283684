@@ -70,9 +70,6 @@ Personal finance applications will ask users to add their expenses and based on 
 - [Sprint 3](https://github.com/IBM-EPBL/IBM-Project-35343-1660283684/tree/main/Project%20Development%20Phase/Sprint3)
 - [Sprint 4](https://github.com/IBM-EPBL/IBM-Project-35343-1660283684/tree/main/Project%20Development%20Phase/Sprint4)
 
-## Project demo 
- 
-   [demo link](https://drive.google.com/file/d/1zEIoTXa9SNmg9EOMNqcQl86OScAjuXvP/view?usp=share_link) 
 
 ## Running the Application
 
